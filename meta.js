@@ -67,5 +67,5 @@ module.exports = {
     ".eslintignore": "lint",
     "src/pages/counter/*": "vuex",
   },
-  "completeMessage": "To get started:\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}npm install\n  npm run bd\n  npm run wx\n\nDocumentation can be found at https://github.com/duvx/duv"
+  "completeMessage": "To get started:\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}npm install\n  npm run bd\n  npm run wx\n\nDocumentation can be found at https://github.com/duvjs/duv"
 };
