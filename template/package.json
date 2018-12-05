@@ -13,6 +13,7 @@
     "author": "{{ author }}",
     "license": "ISC",
     "dependencies": {
+        "duv-js-loader": "^0.1.1",
         "duvjs": "^0.1.2",
         "express": "^4.16.4"
     },

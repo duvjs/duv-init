@@ -93,6 +93,18 @@ function createConfig(options) {
                         }
                     ]
                 },
+                  {
+                    test: /\.js$/,
+                    exclude: /node_modules/,
+                    use: [
+                      {
+                        loader: 'duv-js-loader',
+                        options: {
+                          duvType: options.duvType
+                        }
+                      }
+                    ]
+                  },
                 {
                     test: /\.css$/,
                     exclude: /node_modules/,
