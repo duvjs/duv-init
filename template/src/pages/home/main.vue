@@ -37,6 +37,6 @@
     }
 </script>
 
-<style>
-    @import "./main.css";
+<style lang="sass">
+    @import "./main.sass";
 </style>
