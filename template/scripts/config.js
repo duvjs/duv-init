@@ -138,6 +138,13 @@ function createConfig(options) {
                             }
                         },
                     ]
+                },
+                {
+                    test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
+                    loader: 'url-loader',
+                    options: {
+                      limit: 0
+                    }
                 }
             ]
         }
